@@ -1,0 +1,85 @@
+In Phase 0,
+We mostly have used .info() , .shape , .head(), .tail()
+etc to understand the data we are dealing with. On top of that:- 
+.
+.
+.
+40 meaningful columns were selected from the NASA Exoplanet dataset.
+Column names were renamed to be human-readable and stakeholder-friendly, 
+improving understanding while preserving scientific meaning.
+.
+.
+Stellar Properties:- 
+| Old name                | New stakeholder-friendly name |
+| ----------------------- | ----------------------------- |
+| `hostname`              | `host_star_name`              |
+| `st_spectype`           | `star_spectral_type`          |
+| `star_mass_solar`       | `star_mass_solar`             |
+| `star_radius_solar`     | `star_radius_solar`           |
+| `star_temperature_K`    | `star_temperature_K`          |
+| `star_luminosity_solar` | `star_luminosity_solar`       |
+| `st_logg`               | `star_surface_gravity_log`    |
+| `st_met`                | `star_metallicity`            |
+| `st_age`                | `star_age_gyr`                |
+| `sy_dist`               | `star_distance_parsec`        |
+| `ra`                    | `right_ascension_deg`         |
+| `dec`                   | `declination_deg`             |
+Stellar properties influence planetary formation, temperature, and habitability.
+.
+.
+.
+Planet Physical Properties:- 
+| Old name              | New name                         |
+| --------------------- | -------------------------------- |
+| `pl_name`             | `planet_name`                    |
+| `planet_radius_earth` | `planet_radius_earth`            |
+| `planet_mass_earth`   | `planet_mass_earth`              |
+| `planet_density`      | `planet_density`                 |
+| `pl_eqt`              | `equilibrium_temperature_K`      |
+| `pl_insol`            | `stellar_irradiance_earth_units` |
+| `pl_orbeccen`         | `orbital_eccentricity`           |
+| `pl_orbincl`          | `orbital_inclination_deg`        |
+| `pl_bmasse`           | `best_planet_mass_earth`         |
+| `pl_ratror`           | `planet_star_radius_ratio`       |
+| `pl_trandep`          | `transit_depth`                  |
+| `pl_trandur`          | `transit_duration_hours`         |
+These features describe planet size, mass, orbit shape, and temperature — essential for classification and comparison.
+.
+.
+.
+Orbital Properties:- 
+| Old name              | New name                          |
+| --------------------- | --------------------------------- |
+| `orbital_period_days` | `orbital_period_days`             |
+| `semi_major_axis_AU`  | `semi_major_axis_AU`              |
+| `pl_orbtper`          | `time_of_periastron_days`         |
+| `pl_orblper`          | `longitude_of_periastron_deg`     |
+| `pl_ratdor`           | `distance_to_star_radius_ratio`   |
+| `pl_imppar`           | `impact_parameter`                |
+| `pl_tranmid`          | `transit_midpoint_time`           |
+| `pl_orbeccenlim`      | `orbital_eccentricity_limit_flag` |
+Orbital dynamics affect climate stability, transit detection, and habitability.
+.
+.
+.
+Discovery & Observation Metadata:-
+| Old name          | New name                        |
+| ----------------- | ------------------------------- |
+| `discoverymethod` | `discovery_method`              |
+| `disc_year`       | `discovery_year`                |
+| `disc_facility`   | `discovery_facility`            |
+| `disc_telescope`  | `discovery_telescope`           |
+| `disc_instrument` | `discovery_instrument`          |
+| `rv_flag`         | `radial_velocity_used`          |
+| `tran_flag`       | `transit_method_used`           |
+| `ttv_flag`        | `transit_timing_variation_used` |
+These are ideal for categorical encoding and trend analysis over time.
+.
+.
+.
+Total Columns Selected:-
+Stellar: 12
+Planet physical: 12
+Orbital: 8
+Discovery metadata: 8
+TOTAL = 40 COLUMNS
