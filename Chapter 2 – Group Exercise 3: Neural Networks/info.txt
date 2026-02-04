@@ -1,0 +1,45 @@
+Chapter 2 – Group Exercise 3: Neural Networks
+Objective
+Design, implement, and evaluate a neural network model on a dataset of your choice.
+This exercise focuses on understanding different neural network architectures and their evaluation.
+
+Task Description
+Work in groups of 3–5 students.
+Choose one neural network architecture and apply it to a suitable dataset.
+
+You may select one of the following models:
+
+Feedforward Neural Network (FNN / MLP)
+
+Recurrent Neural Network (RNN)
+
+Long Short-Term Memory (LSTM)
+
+Convolutional Neural Network (CNN)
+
+You may choose any dataset appropriate for your selected model and task.
+
+Problem Type
+Choose one:
+
+Classification task
+
+Regression task
+
+Model Evaluation
+If Classification:
+Evaluate your model using:
+
+Accuracy
+
+Precision
+
+Recall
+
+F1-score
+
+If Regression:
+Evaluate your model using:
+
+RMSE (Root Mean Squared Error)
+
