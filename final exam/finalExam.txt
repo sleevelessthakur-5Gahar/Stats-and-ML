@@ -1,0 +1,13 @@
+I have completed the following:- 
+3. Preprocessing
+• Handle missing values (mean/median, predictive, etc.).
+• Apply feature scaling/encoding where needed.
+• Document preprocessing decisions.
+4. Noise Injection & Cleaning
+• Add artificial noise to at least one feature (e.g., Gaussian noise, outliers).
+• Apply methods to remove/mitigate noise (e.g., smoothing, transformation, outlier
+detection).
+• Compare results: with vs. without noise removal (evaluation + plots).
+.
+.
+Please let me know if something is wrong and needs fixing.
