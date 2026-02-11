@@ -1,0 +1,47 @@
+Select a real-world regression dataset (e.g., housing prices or any dataset with a continuous target variable).
+
+Using scikit-learn, train and compare three different tree-based regression models, specifically:
+
+DecisionTreeRegressor
+
+RandomForestRegressor
+
+ExtraTreesRegressor (Extremely Randomized Trees)
+
+For each model:
+
+Train the model on the training set
+
+Evaluate performance using:
+
+Mean Squared Error (MSE)
+
+Root Mean Squared Error (RMSE)
+
+R² score
+
+Create a predicted vs. actual scatter plot
+
+Finally:
+
+Compare the three models in terms of accuracy and generalization
+
+Briefly discuss differences in model behavior (single tree vs. ensemble methods)
+
+
+Hints (scikit-learn)
+Decision Tree Regressor
+Use a single tree model:
+sklearn.tree.DecisionTreeRegressor
+→ Easy to interpret, but prone to overfitting.
+
+Random Forest Regressor
+Use an ensemble of decision trees with bagging:
+sklearn.ensemble.RandomForestRegressor
+→ Reduces variance by averaging many trees.
+
+Extra Trees Regressor (Extremely Randomized Trees)
+Use a highly randomized tree ensemble:
+sklearn.ensemble.ExtraTreesRegressor
+→ More randomness than Random Forest, often faster and more robust.
+
