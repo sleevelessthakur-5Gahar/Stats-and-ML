@@ -1,0 +1,50 @@
+Objective:
+Apply and compare supervised learning models on a categorical (classification) dataset, focusing on tree-based models and K-Nearest Neighbors (KNN).
+
+Task Description
+Choose a classification dataset (categorical target variable), such as:
+
+Medical diagnosis
+
+Customer churn
+
+Iris dataset
+
+Any other suitable classification dataset
+
+Split the data into training and test sets.
+
+1. Tree-Based Models
+(Note: Decision Trees were introduced in the previous exercise)
+
+Implement three different tree-based classification models using scikit-learn:
+
+Decision Tree Classifier
+
+Random Forest Classifier
+
+Gradient Boosted Trees Classifier
+
+Train each model and generate predictions on the test set.
+
+2. K-Nearest Neighbors (KNN) Model
+Implement the K-Nearest Neighbors (KNN) classifier
+
+Test multiple values of k (e.g., k = 1 to 20)
+
+Plot model performance against different k-values
+
+Identify the optimal value of k
+
+3. Evaluation Metrics
+Evaluate all models using the following metrics:
+
+Accuracy
+
+Precision
+
+Recall
+
+F1-score
+
+Present the results in a clear table or summary.
